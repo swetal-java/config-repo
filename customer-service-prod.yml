@@ -1,0 +1,14 @@
+global:
+  message: Welcome to customer service prod environment!!
+server:
+  port: 8082
+message: Hello From Prod
+spring:
+  datasource:
+    url:
+    username: hr
+    password: hr
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
