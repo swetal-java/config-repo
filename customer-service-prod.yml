@@ -1,7 +1,7 @@
 global:
   message: Welcome to customer service prod environment!!
 server:
-  port: 8082
+  port: 8083
 message: Hello From Prod
 spring:
   datasource:
