@@ -1,0 +1,14 @@
+global:
+  message: Welcome to customer service dev environment!!
+server:
+  port: 8082
+message: Hello From Dev
+spring:
+  datasource:
+    url:
+    username: hr
+    password: hr
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true 
