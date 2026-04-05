@@ -1,13 +1,13 @@
 global:
-    message: Welcome to Global Environment Microoservices
+  message: Welcome to Global Environment Microoservices
 logging:
-    level:
-      root: INFO
+  level:
+    root: INFO
 management:
-    endpoints:
-      web:
-        exposure:
-          include: health, info, refresh
+  endpoints:
+    web:
+      exposure:
+        include: health, info, refresh
     endpoint:
       health:
         show-details: always
